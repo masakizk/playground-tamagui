@@ -1,9 +1,9 @@
-import { View, Text } from 'react-native';
+import { Button, YStack } from 'tamagui';
 
 export default function HomeScreen() {
     return (
-        <View>
-            <Text>Hello World</Text>
-        </View>
+        <YStack padding="$10">
+            <Button size="$6">Button</Button>
+        </YStack>
     );
 }
